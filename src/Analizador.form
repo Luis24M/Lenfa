@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Analizador">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="73" y="36" width="890" height="531"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="e2616" class="javax.swing.JButton" binding="seleccionarButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Seleccionar"/>
+        </properties>
+      </component>
+      <component id="7d0c2" class="javax.swing.JTextArea" binding="textAreaCodigo">
+        <constraints/>
+        <properties>
+          <columns value="20"/>
+          <rows value="30"/>
+        </properties>
+      </component>
+      <component id="db457" class="javax.swing.JButton" binding="analizarButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Analizar"/>
+        </properties>
+      </component>
+      <component id="bc9ce" class="javax.swing.JTextArea" binding="textAreaLexico">
+        <constraints/>
+        <properties>
+          <columns value="25"/>
+          <rows value="15"/>
+        </properties>
+      </component>
+      <component id="a685d" class="javax.swing.JTextArea" binding="textAreaError">
+        <constraints/>
+        <properties>
+          <columns value="25"/>
+          <rows value="15"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
